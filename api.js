@@ -38,8 +38,9 @@ function showMovies(data){
                     <img class="card-img-top" src='${poster_path? IMAGE_URL + poster_path: "http://via.placeholder.com/1080x1580"}' alt="Card image cap">
                     <div class="card-body">
                     <h4 class="card-title">${title}</h4>
-                    <p class="card-text">${overview}</p>
-                    <a href="#" class="btn btn-primary">Watch</a>
+                        <div class="overview">
+                            ${overview}
+                        </div>
                     </div>
             </div>
         `;
