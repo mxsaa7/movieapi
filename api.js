@@ -34,10 +34,10 @@ function showMovies(data){
         movie1.classList.add('movie');
         movie1.innerHTML = 
         `
-            <div class="card" style="width: 25rem;">
+            <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src='${poster_path? IMAGE_URL + poster_path: "http://via.placeholder.com/1080x1580"}' alt="Card image cap">
                     <div class="card-body">
-                    <h5 class="card-title">${title}</h5>
+                    <h4 class="card-title">${title}</h4>
                     <p class="card-text">${overview}</p>
                     <a href="#" class="btn btn-primary">Watch</a>
                     </div>
